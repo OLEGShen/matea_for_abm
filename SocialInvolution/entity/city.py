@@ -146,4 +146,4 @@ if __name__ == "__main__":
     # print("程序运行时间为：", run_time, "秒")
 
     # run_city(3600, 100, '../config/rider_config_all.json',0.15)
-    run_city(3600, 100, '../config/rider_config_hardworking.json', 0.15)
+    run_city(3600, 100, '../config/rider_config_high_performance.json', 0.15)

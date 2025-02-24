@@ -370,17 +370,17 @@ if __name__ == "__main__":
             "Increase",
             "decrease",
             "unchanged",
-            "hardworking",
-            "Competitive",  # 好胜心强的
-            "Lazy",  # 懒惰的
+            "high_performance",
+            "middle_performance",  # 好胜心强的
+            "low_performance",  # 懒惰的
         ],
         [
             "more money",
             "less money"
             "Profit-driven",  # 追求高利润的
-            "hardworking"
-            "Competitive",  # 好胜心强的
-            "Lazy",  # 懒惰的
+            "high_performance"
+            "middle_performance",  # 好胜心强的
+            "low_performance",  # 懒惰的
             "Indifferent",  # 躺平的（这里用Indifferent表示一种无动于衷或不关心的态度）
             "more order",
             "less order"

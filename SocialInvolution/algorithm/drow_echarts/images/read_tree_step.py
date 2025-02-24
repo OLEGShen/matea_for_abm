@@ -25,5 +25,5 @@ def get_info_time(word, info, day_num=30):
     return ans_time
 
 if __name__ == "__main__":
-    ans = read_tree_json('/home/syf/project/MACE/MACE/simulation/examples/SocialInvolution/entity/agent_log/2024-12-09_21_all_lazy/tree/tree.json', 'hardwork')
+    ans = read_tree_json('/home/syf/project/MACE/MACE/simulation/examples/SocialInvolution/entity/agent_log/2024-12-09_21_all_low_performance/tree/tree.json', 'hardwork')
     print(ans)

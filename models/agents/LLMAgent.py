@@ -21,11 +21,6 @@ os.environ["IFLYTEK_SPARK_APP_ID"] = "SPARK_APP_ID"
 os.environ["IFLYTEK_SPARK_API_SECRET"] = "SPARK_APP_SECRET"
 os.environ["IFLYTEK_SPARK_API_KEY"] = "SPARK_API_KEY"
 
-
-#
-# os.environ["QIANFAN_AK"] = "H3cep7ar3Php6fNcNonpAubc"
-# os.environ["QIANFAN_SK"] = "k5CCykaXcU80DfSdFf1iE3jAPm3iIWTY"
-
 class LLMAgent:
     # 基础大模型Agent，继承自AgentBase
     # 使用方法：

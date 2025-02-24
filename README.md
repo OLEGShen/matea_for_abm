@@ -7,8 +7,10 @@ This repository is associated with our research paper titled "MATEA: A Framework
 ## Step 1. Prepare
 
 To set up your environment, you need run the simulation program under Linux system.we tested our environment on Ubuntu 22.04 LTS.
-You can choose to deploy the large model DeepSeek R1 locally or call the OpenAI API interface.
+You can choose to deploy the large language model DeepSeek R1 locally or call the OpenAI API interface.
+
 If you choose to deploy the large model DeepSeek R1 locally, please modify the local model path in the file models/agents/LLMAgent.py.
+
 If you choose to call the OpenAI API interface
 you need get your OpenAI API key. You can fill in your OPENAI_API_KEY in models/agents/LLMAgent.py.
 

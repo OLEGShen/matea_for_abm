@@ -9,7 +9,7 @@ from models.algorithm.utilityCalMethods.individual_cal import IndividualCal
 from models.agents.repast_agent import Agent
 from models.agents.SociologyAgent import RiderLLMAgent
 from models.env.map.city_with_islands.read_map import AStarPlanner
-from examples.SocialInvolution.algorithm.order_sequence import order_sequence_cal
+from SocialInvolution.algorithm.order_sequence import order_sequence_cal
 import repast4py.space as space
 from repast4py.space import DiscretePoint as dpt
 from repast4py.space import ContinuousSpace

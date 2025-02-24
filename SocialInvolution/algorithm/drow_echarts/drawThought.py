@@ -10,7 +10,7 @@ from scipy.interpolate import make_interp_spline
 
 
 # 设置关键词列表
-keywords = ["competitive", "increase", "hardworking"]
+keywords = ["middle_performance", "increase", "high_performance"]
 
 
 # 初始化结果存储

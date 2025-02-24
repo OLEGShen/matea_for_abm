@@ -6,22 +6,22 @@ import random
 # Create a list to store rider data
 riders = []
 #
-# # Attributes for hardworking riders
-# hardworking_riders = [
-#     "Friendly, hardworking",
-#     "Optimistic, hardworking",
-#     "Calm, hardworking",
-#     "Energetic, hardworking",
-#     "Perfectionist, hardworking"
+# # Attributes for high_performance riders
+# high_performance_riders = [
+#     "Friendly, high_performance",
+#     "Optimistic, high_performance",
+#     "Calm, high_performance",
+#     "Energetic, high_performance",
+#     "Perfectionist, high_performance"
 # ]
 #
-# # Attributes for lazy riders
-# lazy_riders = [
-#     "Lazy, laid-back",
-#     "Lazy, dependable",
-#     "Lazy, charming",
-#     "Lazy, practical",
-#     "Lazy, efficient"
+# # Attributes for low_performance riders
+# low_performance_riders = [
+#     "low_performance, laid-back",
+#     "low_performance, dependable",
+#     "low_performance, charming",
+#     "low_performance, practical",
+#     "low_performance, efficient"
 # ]
 names = ["Alex Chen", "Mia Torres", "Ethan Patel", "Sophia Lee", "Olivia Smith",
          "Liam Brown", "Noah Wilson", "Ava Johnson", "James Carter", "Emma Davis",
@@ -42,32 +42,32 @@ backgrounds = [
     "a freelancer looking for supplementary income",
     "an individual transitioning from a different industry"
 ]
-hardworking_rider_num = 34
-lazy_rider_num = 33
-competitive_rider = 33
-for i in range(hardworking_rider_num):
+high_performance_rider_num = 34
+low_performance_rider_num = 33
+middle_performance_rider = 33
+for i in range(high_performance_rider_num):
     name = random.choice(names)
     age = random.randint(20, 50)
     gender = random.choice(genders)
     background = random.choice(backgrounds)
     rider = {
         "role_description": f"You are {name}, a {age}-year-old {gender} delivery rider who is {background}.",
-        "personality": 'hard_working,You are a hard-working rider who will work longer hours and take more orders to earn more money.'
+        "personality": 'high_performance,You are a high_performance rider who will work longer hours and take more orders to earn more money.'
     }
     riders.append(rider)
 
-for i in range(lazy_rider_num):
+for i in range(low_performance_rider_num):
     name = random.choice(names)
     age = random.randint(20, 50)
     gender = random.choice(genders)
     background = random.choice(backgrounds)
     rider = {
         "role_description": f"You are {name}, a {age}-year-old {gender} delivery rider who is {background}.",
-        "personality": 'lazy,You are a lazy rider, you shorten your working hours and take fewer orders because of your laziness'
+        "personality": 'low_performance,You are a low_performance rider, you shorten your working hours and take fewer orders because of your laziness'
     }
     riders.append(rider)
 
-for i in range(competitive_rider):
+for i in range(middle_performance_rider):
     name = random.choice(names)
     age = random.randint(20, 50)
     gender = random.choice(genders)
@@ -75,7 +75,7 @@ for i in range(competitive_rider):
     rider = {
         "role_description": f"You are {name}, a {age}-year-old {gender} delivery rider who is {background}."
                             f"",
-        "personality": 'competitive,You are a competitive rider. You will choose to work longer hours and take more orders because you are ranked low.'
+        "personality": 'middle_performance,You are a middle_performance rider. You will choose to work longer hours and take more orders because you are ranked low.'
     }
     riders.append(rider)
 

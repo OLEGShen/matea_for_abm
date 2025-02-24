@@ -4,7 +4,7 @@ import os
 import sys
 current_dir = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(os.path.join(current_dir, '../../../'))
-from simulation.models.agents.LLMAgent import LLMAgent
+from models.agents.LLMAgent import LLMAgent
 class RiderLLMAgent(LLMAgent):
     def __init__(self, role_param_dict):
 
@@ -16,7 +16,7 @@ class RiderLLMAgent(LLMAgent):
         self.sensible_degree = 0.7
         self.SR_CoT = False
         self.role_description = ''
-        self.personality = 'lazy'
+        self.personality = 'low_performance'
         if role_param_dict is not None:
             # self.sensible_degree = role_param_dict['sensible_degree']
             # self.SR_CoT = role_param_dict['SR_CoT']
@@ -186,7 +186,7 @@ class RiderLLMAgent(LLMAgent):
 if __name__ == '__main__':
     role_param_dict = {
             "role_description": "You are Chloe Lewis, a 26-year-old Male delivery rider who is an experienced driver seeking a steady income.",
-            "personality": "hard_working,You are a hard-working rider who will work longer hours and take more orders to earn more money."
+            "personality": "high_performance,You are a high_performance rider who will work longer hours and take more orders to earn more money."
     }
 
     agent = RiderLLMAgent(role_param_dict)

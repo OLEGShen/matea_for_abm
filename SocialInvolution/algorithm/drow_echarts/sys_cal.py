@@ -315,14 +315,14 @@ import matplotlib.pyplot as plt
 
 file_paths = [
     '2024-12-13hard_03',
-    '2024-12-09_21lazy_03',
+    '2024-12-09_21low_performance_03',
 
     '2024-12-11competive_03',
     '2024-12-13all_03',
     '2024-12-13all_015',
     '2024-12-13comp_015',
     '2024-12-13hard_015',
-    '2024-12-13lazy_015',
+    '2024-12-13low_performance_015',
 
 ]
 # 创建一个图形
@@ -429,7 +429,7 @@ plt.show()
 
 
 # # 使用示例
-# # folder_path = '/home/syf/project/MACE/MACE/simulation/examples/SocialInvolution/entity/agent_log/2024-12-09_21_all_lazy'  # 替换为您的CSV文件路径
+# # folder_path = '/home/syf/project/MACE/MACE/simulation/examples/SocialInvolution/entity/agent_log/2024-12-09_21_all_low_performance'  # 替换为您的CSV文件路径
 # folder_path = '/home/syf/project/MACE/MACE/simulation/examples/SocialInvolution/entity/agent_log/2024-12-11_all_competive'
 # sys_cal = SysCal()
 # sys_cal.process_csv_files(folder_path + '/utility')
